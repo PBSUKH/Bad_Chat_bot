@@ -335,6 +335,6 @@ async def vprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
        
-bot.start()
+app.start()
 print("BGT CHAT BOT BOOTED SUCCESSFULLY")
 idle()
