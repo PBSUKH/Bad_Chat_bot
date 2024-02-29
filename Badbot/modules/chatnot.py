@@ -6,7 +6,7 @@ import requests
 import random
 import os
 import re
-from Badbot import app
+from Badbot import app BOT_IMAGE, MONGO_URL, OWNER_USERNAME
 
 
 async def is_admins(chat_id: int):
