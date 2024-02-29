@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@app.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group)
+@app.on_message(filters.command(["/start", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
